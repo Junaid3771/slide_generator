@@ -1,0 +1,10 @@
+streamlit
+python-dotenv 
+requests
+tenacity
+fastapi
+google-generativeai
+uvicorn
+pydantic
+python-pptx
+#pip install -q -U google-genai
