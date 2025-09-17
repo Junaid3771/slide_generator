@@ -67,7 +67,7 @@ class GeminiAgent:
 class ImageGenAgent:
     def __init__(self):
         self.api_key = GENAI_API_KEY
-        self.client = genai.Client(api_key=GENAI_API_KEY http_options={'api_version': 'v1alpha'})
+        self.client = genai.Client(api_key=GENAI_API_KEY ,http_options={'api_version': 'v1alpha'})
         self.model = 'gemini-2.0-flash-exp'
         self.config = types.GenerateContentConfig(response_modalities=["TEXT", "IMAGE"])
 
