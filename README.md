@@ -46,8 +46,8 @@ The frontend will be available at the URL provided in the terminal (typically [h
 ## API Documentation
 
 The backend API is built with FastAPI. Once the backend server is running, interactive API documentation is available at:
-- Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
-- ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+- [http://localhost:8000/]
+
 
 ### Main Endpoints
 
